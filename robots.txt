@@ -1,0 +1,8 @@
+# robots.txt for https://www.locava.ca/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.locava.ca/sitemap.xml
+

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ethereal - An extraordinary fine dining experience that transcends the ordinary. Award-winning cuisine, elegant ambiance, and unforgettable moments.">
+    <meta name="keywords" content="fine dining, restaurant, gourmet, luxury dining, upscale restaurant, fine dining experience">
+    <meta name="author" content="Ethereal Fine Dining">
+    <meta name="theme-color" content="#2c2416">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <title>Ethereal | Fine Dining Experience - Award-Winning Restaurant</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ethereal-restaurant.com/">
+
+    <!-- Open Graph Tags for Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ethereal | Fine Dining Experience">
+    <meta property="og:description" content="An extraordinary fine dining experience that transcends the ordinary. Award-winning cuisine and elegant ambiance.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80">
+    <meta property="og:url" content="https://ethereal-restaurant.com/">
+    <meta property="og:site_name" content="Ethereal">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ethereal | Fine Dining Experience">
+    <meta name="twitter:description" content="An extraordinary fine dining experience that transcends the ordinary.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%23d4af37'>✦</text></svg>">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <h1>Ethereal</h1>
+                <div class="loading-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <span class="logo-text">Ethereal</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item nav-cta">
+                    <a href="contact.html#reservation" class="btn-reserve">Reserve Table</a>
+                </li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80')"></div>
+            </div>
+            <div class="hero-slide">
+                <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&q=80')"></div>
+            </div>
+            <div class="hero-slide">
+                <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1920&q=80')"></div>
+            </div>
+        </div>
+        
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
+                <p class="hero-subtitle">Welcome to</p>
+                <h1 class="hero-title">Ethereal</h1>
+                <div class="hero-divider"></div>
+                <p class="hero-description">A culinary journey beyond imagination</p>
+                <div class="hero-buttons">
+                    <a href="menu.html" class="btn btn-primary">Explore Menu</a>
+                    <a href="contact.html#reservation" class="btn btn-secondary">Book a Table</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll">
+            <a href="#about-preview" class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </a>
+        </div>
+        
+        <div class="slider-controls">
+            <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        
+        <div class="slider-dots"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about-preview">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=800&q=80" alt="Chef preparing food" loading="lazy">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="experience-badge">
+                        <div class="badge-content">
+                            <span class="badge-number">25+</span>
+                            <span class="badge-text">Years of Excellence</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-content" data-aos="fade-left" data-aos-duration="1000">
+                    <span class="section-subtitle">Our Story</span>
+                    <h2 class="section-title">Where Passion Meets Perfection</h2>
+                    <div class="title-divider"></div>
+                    
+                    <p class="about-text">
+                        For over two decades, Ethereal has been redefining the art of fine dining. 
+                        Our journey began with a simple vision: to create an experience that transcends 
+                        the ordinary and touches the soul.
+                    </p>
+                    
+                    <p class="about-text">
+                        Led by our award-winning Chef Marcus Bellamy, we craft each dish with meticulous 
+                        attention to detail, using only the finest locally-sourced ingredients and 
+                        time-honored techniques passed down through generations.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Michelin Starred</h4>
+                                <p>3 Stars Excellence</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Farm to Table</h4>
+                                <p>Fresh Local Ingredients</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Artisan Cuisine</h4>
+                                <p>Handcrafted Perfection</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="about.html" class="btn btn-primary">Read Our Full Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Dishes Preview -->
+    <section class="signature-preview">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Culinary Masterpieces</span>
+                <h2 class="section-title">Signature Creations</h2>
+                <div class="title-divider"></div>
+            </div>
+            
+            <div class="signature-grid">
+                <div class="signature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&q=80" alt="Gourmet Salad" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="menu.html#appetizers" class="view-btn">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Garden Symphony</h3>
+                        <p>Heirloom tomatoes, burrata, microgreens</p>
+                        <span class="price">$28</span>
+                    </div>
+                </div>
+
+                <div class="signature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Gourmet Pizza" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="menu.html#appetizers" class="view-btn">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Truffle Elegance</h3>
+                        <p>Wild mushrooms, black truffle, aged parmesan</p>
+                        <span class="price">$42</span>
+                    </div>
+                </div>
+
+                <div class="signature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1558030006-450675393462?w=600&q=80" alt="Gourmet Steak" loading="lazy">
+                        <div class="card-overlay">
+                            <a href="menu.html#mains" class="view-btn">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Prime Perfection</h3>
+                        <p>Wagyu beef, seasonal vegetables, red wine reduction</p>
+                        <span class="price">$85</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 4rem;" data-aos="fade-up">
+                <a href="menu.html" class="btn btn-primary">Explore Our Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section" id="cta">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Experience Culinary Excellence</h2>
+                <p>Discover our complete menu, view our stunning gallery, and reserve your table for an unforgettable dining experience.</p>
+                <div class="cta-buttons">
+                    <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+                    <a href="gallery.html" class="btn btn-secondary">View Gallery</a>
+                    <a href="contact.html#reservation" class="btn btn-primary">Reserve a Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation" id="reservation">
+        <div class="container">
+            <div class="reservation-grid">
+                <div class="reservation-content" data-aos="fade-right">
+                    <span class="section-subtitle">Book Your Experience</span>
+                    <h2 class="section-title">Reserve a Table</h2>
+                    <div class="title-divider"></div>
+                    <p class="reservation-text">
+                        Secure your seat at Ethereal and prepare for an unforgettable culinary journey.
+                        Our intimate setting accommodates limited guests each evening, ensuring personalized
+                        attention and an exclusive experience.
+                    </p>
+
+                    <div class="reservation-info">
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Opening Hours</h4>
+                                <p>Tue - Sat: 6:00 PM - 11:00 PM</p>
+                                <p>Sun: 5:00 PM - 10:00 PM</p>
+                                <p>Monday: Closed</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reservation-form-wrapper" data-aos="fade-left">
+                    <form class="reservation-form-home" id="reservationForm">
+                        <div class="form-grid-home">
+                            <div class="form-group-home">
+                                <label for="name" class="form-label-home">Full Name *</label>
+                                <div class="input-wrapper-home">
+                                    <i class="fas fa-user input-icon-home"></i>
+                                    <input type="text" id="name" class="form-input-home" placeholder="Enter your full name" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group-home">
+                                <label for="email" class="form-label-home">Email Address *</label>
+                                <div class="input-wrapper-home">
+                                    <i class="fas fa-envelope input-icon-home"></i>
+                                    <input type="email" id="email" class="form-input-home" placeholder="your@email.com" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-grid-home">
+                            <div class="form-group-home">
+                                <label for="phone" class="form-label-home">Phone Number *</label>
+                                <div class="input-wrapper-home">
+                                    <i class="fas fa-phone input-icon-home"></i>
+                                    <input type="tel" id="phone" class="form-input-home" placeholder="+1 (555) 123-4567" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group-home">
+                                <label for="guests" class="form-label-home">Number of Guests *</label>
+                                <div class="input-wrapper-home">
+                                    <i class="fas fa-users input-icon-home"></i>
+                                    <select id="guests" class="form-input-home" required>
+                                        <option value="">Select guests</option>
+                                        <option value="1">1 Guest</option>
+                                        <option value="2">2 Guests</option>
+                                        <option value="3">3 Guests</option>
+                                        <option value="4">4 Guests</option>
+                                        <option value="5">5 Guests</option>
+                                        <option value="6">6 Guests</option>
+                                        <option value="7">7 Guests</option>
+                                        <option value="8">8+ Guests</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-grid-home">
+                            <div class="form-group-home">
+                                <label for="date" class="form-label-home">Reservation Date *</label>
+                                <div class="input-wrapper-home">
+                                    <i class="fas fa-calendar input-icon-home"></i>
+                                    <input type="date" id="date" class="form-input-home" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group-home">
+                                <label for="time" class="form-label-home">Preferred Time *</label>
+                                <div class="input-wrapper-home">
+                                    <i class="fas fa-clock input-icon-home"></i>
+                                    <select id="time" class="form-input-home" required>
+                                        <option value="">Select a time</option>
+                                        <option value="17:30">5:30 PM</option>
+                                        <option value="18:00">6:00 PM</option>
+                                        <option value="18:30">6:30 PM</option>
+                                        <option value="19:00">7:00 PM</option>
+                                        <option value="19:30">7:30 PM</option>
+                                        <option value="20:00">8:00 PM</option>
+                                        <option value="20:30">8:30 PM</option>
+                                        <option value="21:00">9:00 PM</option>
+                                        <option value="21:30">9:30 PM</option>
+                                        <option value="22:00">10:00 PM</option>
+                                        <option value="22:30">10:30 PM</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group-home">
+                            <label for="message" class="form-label-home">Special Requests (Optional)</label>
+                            <div class="input-wrapper-home">
+                                <i class="fas fa-comment input-icon-home"></i>
+                                <textarea id="message" class="form-input-home form-textarea-home" rows="4" placeholder="Dietary restrictions, seating preferences, etc."></textarea>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-submit-home">
+                            <span>Confirm Reservation</span>
+                            <i class="fas fa-check-circle"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">What Our Guests Say</span>
+                <h2 class="section-title">Testimonials</h2>
+                <div class="title-divider"></div>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "An absolutely transcendent dining experience. Every dish was a masterpiece,
+                            and the service was impeccable. Ethereal has set a new standard for fine dining."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" loading="lazy">
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <p>Food Critic, Gourmet Magazine</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Chef Marcus's creativity knows no bounds. The tasting menu was a journey through
+                            flavors I never knew existed. This is more than a meal—it's an art form."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen" loading="lazy">
+                            <div>
+                                <h4>Michael Chen</h4>
+                                <p>Culinary Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "From the moment we walked in, we were treated like royalty. The ambiance,
+                            the food, the wine pairing—everything was perfect. We'll be back!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emma Williams" loading="lazy">
+                            <div>
+                                <h4>Emma Williams</h4>
+                                <p>Travel Blogger</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-controls">
+                <button class="testimonial-btn prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                <button class="testimonial-btn next-testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">Ethereal</h3>
+                    <p class="footer-text">
+                        Experience the pinnacle of fine dining where every detail is crafted to perfection.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Our Menu</a></li>
+                        <li><a href="contact.html#reservation">Reservations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Policies</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="cancellation-policy.html">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> <a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@ethereal-dining.com">info@ethereal-dining.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Gourmet Avenue, NY</li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ethereal Fine Dining. All rights reserved. Crafted with passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Image Modal -->
+    <div class="modal" id="imageModal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Ethereal",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80",
+        "description": "An extraordinary fine dining experience that transcends the ordinary",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Gourmet Avenue",
+            "addressLocality": "New York",
+            "addressRegion": "NY",
+            "postalCode": "10001",
+            "addressCountry": "US"
+        },
+        "telephone": "+1-555-123-4567",
+        "url": "https://ethereal-restaurant.com",
+        "priceRange": "$$$$",
+        "servesCuisine": "French, Contemporary",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "247"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "17:00",
+                "closes": "23:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Saturday"],
+                "opens": "17:00",
+                "closes": "00:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Sunday"],
+                "opens": "17:00",
+                "closes": "22:00"
+            }
+        ]
+    }
+    </script>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+

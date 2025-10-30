@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Locava | Professional Web Design</title>
+    <meta
+      name="description"
+      content="Locava builds high-performing websites for British Columbia businesses with clear process, sharp design, and measurable results."
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.locava.ca/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.locava.ca/" />
+    <meta property="og:title" content="Locava | Professional Web Design" />
+    <meta property="og:description" content="Locava builds high-performing websites for British Columbia businesses with clear process, sharp design, and measurable results." />
+    <meta property="og:image" content="https://www.locava.ca/images/laptop-showing-locava.webp" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.locava.ca/" />
+    <meta name="twitter:title" content="Locava | Professional Web Design" />
+    <meta name="twitter:description" content="Locava builds high-performing websites for British Columbia businesses with clear process, sharp design, and measurable results." />
+    <meta name="twitter:image" content="https://www.locava.ca/images/laptop-showing-locava.webp" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Additional meta for better search appearance -->
+    <meta name="theme-color" content="#000000" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="msapplication-TileImage" content="/images/Locava-google-profile.png" />
+
+    <!-- Performance optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Locava",
+      "url": "https://www.locava.ca",
+      "logo": "https://www.locava.ca/images/Locava-google-profile.webp",
+      "description": "Professional web design agency creating high-performing websites with clear process, sharp design, and measurable results.",
+      "sameAs": []
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.locava.ca/"
+      }]
+    }
+    </script>
+  </head>
+  <body>
+    <a class="sr-only" href="#main">Skip to main content</a>
+    <header class="site-header site-header--dark">
+      <div class="container site-header__bar">
+        <a class="site-logo" href="index.html" aria-label="Locava">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" role="img">
+            <defs>
+              <linearGradient id="locavaGradient" gradientUnits="userSpaceOnUse" x1="0" y1="60" x2="400" y2="60">
+                <stop offset="0%" stop-color="var(--logo-start)" />
+                <stop offset="100%" stop-color="var(--logo-end)" />
+              </linearGradient>
+            </defs>
+            <g fill="none" stroke="url(#locavaGradient)" stroke-width="6.6" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="4">
+              <!-- L -->
+              <g transform="translate(0,20)">
+                <path d="M0 0v80h44" />
+              </g>
+              <!-- O -->
+              <g transform="translate(60,20)">
+                <circle cx="40" cy="40" r="36" />
+              </g>
+              <!-- C -->
+              <g transform="translate(122,20)">
+                <path d="M54 4 A40 40 0 0 0 0 40 A40 40 0 0 0 54 76" />
+              </g>
+              <!-- A -->
+              <g transform="translate(192,20)">
+                <path d="M0 80L36 0l36 80" />
+              </g>
+              <!-- V -->
+              <g transform="translate(264,20)">
+                <path d="M0 0l36 80 36-80" />
+              </g>
+              <!-- A -->
+              <g transform="translate(336,20)">
+                <path d="M0 80L36 0l36 80" />
+              </g>
+            </g>
+          </svg>
+        </a>
+        <button
+          class="site-nav__toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="site-nav__toggle-bars">
+            <span class="site-nav__toggle-bar"></span>
+            <span class="site-nav__toggle-bar"></span>
+            <span class="site-nav__toggle-bar"></span>
+          </span>
+        </button>
+        <nav class="site-nav" id="primary-nav" aria-label="Main navigation">
+          <ul class="site-nav__list">
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="site-nav__cta">
+            <a class="button button--secondary" href="contact.html">Get Free Quote</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero" aria-label="Hero">
+        <div class="hero__background" aria-hidden="true">
+          <picture>
+            <source
+              srcset="images/laptop-showing-locava.webp 640w, images/laptop-showing-locava.webp 1280w, images/laptop-showing-locava.webp 1920w"
+              sizes="(min-width: 1280px) 560px, (min-width: 1024px) 500px, 90vw"
+              type="image/webp"
+            />
+            <img
+              src="images/laptop-showing-locava.webp"
+              width="4113"
+              height="6077"
+              sizes="(min-width: 1280px) 560px, (min-width: 1024px) 500px, 90vw"
+              alt="Locava website displayed on a laptop screen"
+              fetchpriority="high"
+              decoding="async"
+              style="aspect-ratio: 4113 / 6077; object-fit: cover;"
+            />
+          </picture>
+        </div>
+        <div class="hero__overlay" aria-hidden="true"></div>
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="hero__super">CONVERSION-FIRST DESIGN</p>
+            <h1 class="hero__heading">
+              <span class="hero__heading-muted">Professional</span>
+              <span class="hero__heading-strong">Web Design</span>
+            </h1>
+            <p class="hero__sub">
+              High-performing websites for BC businesses ready to grow online.
+            </p>
+            <div class="hero__ctas">
+              <a class="button button--primary hero__cta" href="contact.html">Get Free Quote</a>
+              <a class="button button--ghost hero__cta" href="pricing.html">View Pricing</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="home-value" class="section section--light">
+        <div class="container">
+          <header class="section__header">
+            <p class="section__eyebrow">Why Locava</p>
+            <h2 class="section__heading">Outcomes that matter</h2>
+            <p class="section__subheading">
+              Every build targets visibility, trust, and measurable revenue for your team.
+            </p>
+          </header>
+          <div class="card-grid">
+            <article class="card">
+              <div class="card__icon">01</div>
+              <h3 class="card__title">Increase Revenue</h3>
+              <p class="card__text">
+                Convert more visitors with a frictionless buying journey and clear CTAs.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card__icon">02</div>
+              <h3 class="card__title">Build Trust</h3>
+              <p class="card__text">
+                Showcase proof, reviews, and credentials within minutes of landing.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card__icon">03</div>
+              <h3 class="card__title">Launch Fast</h3>
+              <p class="card__text">
+                Move from discovery to launch in weeks with a defined, transparent workflow.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="home-services" class="section section--light">
+        <div class="container">
+          <header class="section__header">
+            <p class="section__eyebrow">Services</p>
+            <h2 class="section__heading">What we deliver</h2>
+            <p class="section__subheading">
+              Full-stack web support that keeps your digital presence current and effective.
+            </p>
+          </header>
+          <div class="card-grid">
+            <article class="card">
+              <div class="card__icon">WD</div>
+              <h3 class="card__title">Website Design</h3>
+              <ul class="card__list">
+                <li>Custom strategy</li>
+                <li>Responsive layouts</li>
+                <li>Conversion messaging</li>
+              </ul>
+              <a class="button button--secondary" href="pricing.html">View Pricing</a>
+            </article>
+            <article class="card">
+              <div class="card__icon">MT</div>
+              <h3 class="card__title">Maintenance</h3>
+              <ul class="card__list">
+                <li>Updates &amp; hosting</li>
+                <li>Security checks</li>
+                <li>Content refreshes</li>
+              </ul>
+              <a class="button button--secondary" href="pricing.html">View Pricing</a>
+            </article>
+            <article class="card">
+              <div class="card__icon">SEO</div>
+              <h3 class="card__title">Search Visibility</h3>
+              <ul class="card__list">
+                <li>Keyword planning</li>
+                <li>On-page optimization</li>
+                <li>Analytics tracking</li>
+              </ul>
+              <a class="button button--secondary" href="pricing.html">View Pricing</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+<section id="home-journey" class="section section--journey">
+  <div class="container">
+    <div class="journey__wrap">
+      <header class="journey__header">
+        <p class="journey__eyebrow">Journey</p>
+        <h2 class="journey__title">Our collaborative approach</h2>
+        <p class="journey__sub">We transform your vision into a powerful online presence.</p>
+      </header>
+
+      <div class="journey">
+        <!-- 1) Discovery -->
+        <div class="journey__row">
+          <div class="journey__media">
+            <picture>
+              <source
+                srcset="images/journey-discovery.webp 800w, images/journey-discovery.webp 1200w"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                type="image/webp"
+              />
+              <img
+                src="images/journey-discovery.webp"
+                width="6554"
+                height="8192"
+                alt="Discovery workshop session with client collaboration"
+                loading="lazy"
+              >
+            </picture>
+          </div>
+          <div class="journey__content">
+            <h3 class="journey__stage">Discovery</h3>
+            <p class="journey__tagline">Understanding your business goals</p>
+            <p class="journey__copy">We listen, audit, and align on outcomes so design and build stay focused.</p>
+            <div class="journey__actions">
+              <a class="journey__btn" href="contact.html">Start</a>
+              <a class="journey__btn" href="about.html">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2) Strategy -->
+        <div class="journey__row">
+          <div class="journey__content">
+            <h3 class="journey__stage">Strategy</h3>
+            <p class="journey__tagline">Crafting a digital roadmap</p>
+            <p class="journey__copy">We develop a tailored plan for growth—IA, funnels, content, and KPIs.</p>
+            <div class="journey__actions">
+              <a class="journey__btn" href="pricing.html">Plan</a>
+              <a class="journey__btn" href="case-study.html">Insights</a>
+            </div>
+          </div>
+          <div class="journey__media">
+            <picture>
+              <source
+                srcset="images/journey-strategy.webp 800w, images/journey-strategy.webp 1200w"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                type="image/webp"
+              />
+              <img
+                src="images/journey-strategy.webp"
+                width="2566"
+                height="1704"
+                alt="Strategic planning session with wireframes and user flows"
+                loading="lazy"
+              >
+            </picture>
+          </div>
+        </div>
+
+        <!-- 3) Design -->
+        <div class="journey__row">
+          <div class="journey__media">
+            <picture>
+              <source
+                srcset="images/journey-design.webp 800w, images/journey-design.webp 1200w"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                type="image/webp"
+              />
+              <img
+                src="images/journey-design.webp"
+                width="3088"
+                height="2056"
+                alt="Design system components and high-fidelity mockups"
+                loading="lazy"
+              >
+            </picture>
+          </div>
+          <div class="journey__content">
+            <h3 class="journey__stage">Design</h3>
+            <p class="journey__tagline">Creating your digital identity</p>
+            <p class="journey__copy">We translate ideas into clean, accessible, conversion-first visuals.</p>
+            <div class="journey__actions">
+              <a class="journey__btn" href="portfolio.html">Explore</a>
+              <a class="journey__btn" href="contact.html">Create</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4) Launch -->
+        <div class="journey__row">
+          <div class="journey__content">
+            <h3 class="journey__stage">Launch</h3>
+            <p class="journey__tagline">Bringing your website to life</p>
+            <p class="journey__copy">We deploy, train, and review performance with clear next steps.</p>
+            <div class="journey__actions">
+              <a class="journey__btn" href="contact.html">Go live</a>
+              <a class="journey__btn" href="pricing.html">Reveal</a>
+            </div>
+          </div>
+          <div class="journey__media">
+            <picture>
+              <source
+                srcset="images/journey-launch.webp 800w, images/journey-launch.webp 1200w"
+                sizes="(max-width: 768px) 100vw, 50vw"
+                type="image/webp"
+              />
+              <img
+                src="images/journey-launch.webp"
+                width="4376"
+                height="2917"
+                alt="Website launch with performance monitoring and analytics"
+                loading="lazy"
+              >
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <section id="home-cta" class="section section--light section--tight">
+        <div class="container">
+          <div class="stack" style="align-items: center; text-align: center">
+            <div>
+              <h3 class="section__heading" style="margin-bottom: 12px">Ready to transform your site?</h3>
+              <p class="section__subheading">
+                Share goals, timelines, and we’ll outline the launch roadmap within 24 hours.
+              </p>
+            </div>
+            <div class="cta-group" style="justify-content: center">
+              <a class="button button--primary" href="contact.html">Get Free Quote</a>
+              <a class="button button--secondary" href="portfolio.html">View Our Work</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__column">
+            <h4>Locava</h4>
+            <p>
+              Locava designs and builds conversion-focused websites for British Columbia brands
+              ready to stand out.
+            </p>
+          </div>
+          <div class="footer__column">
+            <h4>Quick Links</h4>
+            <ul class="footer__links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4>Contact</h4>
+            <a class="contact-details__item" href="mailto:info@locava.ca">info@locava.ca</a>
+            <a class="contact-details__item" href="tel:+12369950243">+1 (236) 995-0243</a>
+            <p class="contact-details__item">British Columbia, Canada</p>
+          </div>
+          <div class="footer__column">
+            <h4>Follow Us</h4>
+            <a class="contact-details__item" href="https://www.instagram.com/locava.ca/" target="_blank" rel="noopener noreferrer">Instagram</a> | <a class="contact-details__item" href="https://www.linkedin.com/company/locava-canada/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+        <div class="footer__location">
+          <p>Serving BC: Vancouver, Richmond, Burnaby, Surrey, Langley, Coquitlam, +more — expanding across Canada.</p>
+        </div>
+        <div class="footer__bottom">
+          <span>© <span id="footer-year">2024</span> Locava</span>
+          <div class="icon-row">
+            <a href="privacy.html" aria-label="Privacy Policy">Privacy</a>
+            <a href="terms.html" aria-label="Terms and Conditions">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts.js" defer></script>
+  </body>
+</html>

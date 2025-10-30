@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Ethereal's exquisite menu featuring seasonal ingredients, gourmet dishes, and culinary masterpieces">
+    <meta name="keywords" content="fine dining menu, gourmet food, seasonal dishes, appetizers, main courses, desserts">
+    <meta name="author" content="Ethereal Fine Dining">
+    <meta name="theme-color" content="#2c2416">
+    <meta name="robots" content="index, follow">
+    <title>Our Menu | Ethereal Fine Dining - Gourmet Cuisine</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ethereal-restaurant.com/menu.html">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Our Menu | Ethereal Fine Dining">
+    <meta property="og:description" content="Explore our exquisite menu featuring seasonal ingredients and culinary masterpieces">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=80">
+    <meta property="og:url" content="https://ethereal-restaurant.com/menu.html">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Our Menu | Ethereal Fine Dining">
+    <meta name="twitter:description" content="Explore our exquisite menu featuring seasonal ingredients and culinary masterpieces">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=80">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%23d4af37'>✦</text></svg>">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <span class="logo-text">Ethereal</span>
+                </a>
+            </div>
+
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link active">Menu</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item nav-cta">
+                    <a href="contact.html#reservation" class="btn-reserve">Reserve Table</a>
+                </li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-bg" style="background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1920&q=80')"></div>
+        <div class="page-header-overlay"></div>
+        <div class="page-header-content">
+            <h1 class="page-title" data-aos="fade-up">Our Menu</h1>
+            <p class="page-subtitle" data-aos="fade-up" data-aos-delay="100">A Culinary Journey of Excellence</p>
+            <div class="breadcrumb" data-aos="fade-up" data-aos-delay="200">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Menu</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Introduction -->
+    <section class="menu-intro">
+        <div class="container">
+            <div class="intro-content" data-aos="fade-up">
+                <span class="section-subtitle">Seasonal Excellence</span>
+                <h2 class="section-title">Crafted with Passion</h2>
+                <div class="title-divider"></div>
+                <p class="intro-text">
+                    Our menu celebrates the finest seasonal ingredients, sourced from local farms and 
+                    artisan producers. Each dish is a masterpiece, carefully crafted to deliver an 
+                    unforgettable dining experience.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="new-menu-section">
+        <div class="container">
+
+            <!-- Left Sidebar Navigation -->
+            <aside class="menu-sidebar" id="menuSidebar">
+                <nav class="sidebar-nav">
+                    <h3 class="sidebar-title">Menu</h3>
+                    <ul class="sidebar-menu">
+                        <li><a href="#appetizers" class="sidebar-link active" data-section="appetizers">Appetizers</a></li>
+                        <li><a href="#soups" class="sidebar-link" data-section="soups">Soups & Salads</a></li>
+                        <li><a href="#seafood" class="sidebar-link" data-section="seafood">Seafood</a></li>
+                        <li><a href="#mains" class="sidebar-link" data-section="mains">Main Courses</a></li>
+                        <li><a href="#desserts" class="sidebar-link" data-section="desserts">Desserts</a></li>
+                        <li><a href="#beverages" class="sidebar-link" data-section="beverages">Beverages</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <!-- Menu Content Wrapper -->
+            <div class="menu-content-wrapper">
+            
+            <!-- Appetizers -->
+            <div class="menu-category-new" id="appetizers" data-aos="fade-up">
+                <h2 class="category-title-new">APPETIZERS</h2>
+                <p class="category-subtitle-new">Begin your culinary journey</p>
+                
+                <div class="menu-items-list">
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Seared Foie Gras</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$38</span>
+                        </div>
+                        <p class="item-description-new">Pan-seared Hudson Valley foie gras, caramelized fig compote, toasted brioche</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Oysters Rockefeller</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$32</span>
+                        </div>
+                        <p class="item-description-new">Six fresh oysters, spinach, Pernod, parmesan crust, lemon butter sauce</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Tuna Tartare</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$28</span>
+                        </div>
+                        <p class="item-description-new">Yellowfin tuna, avocado, cucumber, sesame oil, crispy wonton, wasabi aioli</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Beef Carpaccio</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$26</span>
+                        </div>
+                        <p class="item-description-new">Thinly sliced prime beef, arugula, shaved parmesan, truffle oil, capers</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Garden Symphony</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$28</span>
+                        </div>
+                        <p class="item-description-new">Heirloom tomatoes, burrata, microgreens, balsamic reduction</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Burrata & Heirloom Tomatoes</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$22</span>
+                        </div>
+                        <p class="item-description-new">Creamy burrata, heirloom tomatoes, basil pesto, aged balsamic</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Truffle Elegance</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$42</span>
+                        </div>
+                        <p class="item-description-new">Wild mushrooms, black truffle, aged parmesan, truffle oil</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Escargots de Bourgogne</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$24</span>
+                        </div>
+                        <p class="item-description-new">Burgundy snails, garlic herb butter, puff pastry, fresh parsley</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Lobster Bisque Shooters</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$20</span>
+                        </div>
+                        <p class="item-description-new">Rich lobster bisque, cognac cream, chive oil, micro herbs</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Truffle Arancini</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$21</span>
+                        </div>
+                        <p class="item-description-new">Crispy risotto balls, black truffle, fontina cheese, truffle aioli</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Smoked Salmon Crostini</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$23</span>
+                        </div>
+                        <p class="item-description-new">Norwegian smoked salmon, cream cheese, capers, red onion, dill, toasted crostini</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Prosciutto & Melon</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$19</span>
+                        </div>
+                        <p class="item-description-new">Aged prosciutto di Parma, fresh cantaloupe, balsamic glaze, mint</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Crab Cakes</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$29</span>
+                        </div>
+                        <p class="item-description-new">Jumbo lump crab, remoulade sauce, microgreens, lemon wedge</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Shrimp Cocktail</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$25</span>
+                        </div>
+                        <p class="item-description-new">Chilled jumbo shrimp, house-made cocktail sauce, fresh lemon</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soups & Salads -->
+            <div class="menu-category-new" id="soups" data-aos="fade-up">
+                <h2 class="category-title-new">SOUPS & SALADS</h2>
+                <p class="category-subtitle-new">Fresh, vibrant, and perfectly balanced</p>
+
+                <div class="menu-items-list">
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">French Onion Soup</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$18</span>
+                        </div>
+                        <p class="item-description-new">Caramelized onions, beef broth, gruyère cheese, toasted baguette</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Lobster Bisque</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$24</span>
+                        </div>
+                        <p class="item-description-new">Creamy lobster bisque, cognac, fresh tarragon, lobster medallion</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Caesar Salad</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$19</span>
+                        </div>
+                        <p class="item-description-new">Romaine hearts, house-made Caesar dressing, parmesan crisps, anchovies</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Heirloom Beet Salad</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$20</span>
+                        </div>
+                        <p class="item-description-new">Roasted beets, goat cheese, candied walnuts, arugula, citrus vinaigrette</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Butternut Squash Soup</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$16</span>
+                        </div>
+                        <p class="item-description-new">Roasted butternut squash, coconut cream, sage oil, toasted pumpkin seeds</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Grilled Pear & Gorgonzola Salad</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$21</span>
+                        </div>
+                        <p class="item-description-new">Grilled pears, gorgonzola, mixed greens, candied pecans, honey balsamic</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Tomato Basil Soup</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$15</span>
+                        </div>
+                        <p class="item-description-new">Roasted tomatoes, fresh basil, cream, parmesan crisp</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Wedge Salad</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$17</span>
+                        </div>
+                        <p class="item-description-new">Iceberg lettuce, blue cheese dressing, bacon, tomatoes, red onion</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Seafood Chowder</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$22</span>
+                        </div>
+                        <p class="item-description-new">Creamy chowder, shrimp, scallops, clams, potatoes, fresh herbs</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seafood -->
+            <div class="menu-category-new" id="seafood" data-aos="fade-up">
+                <h2 class="category-title-new">SEAFOOD</h2>
+                <p class="category-subtitle-new">Ocean's finest, prepared to perfection</p>
+
+                <div class="menu-items-list">
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Pan-Seared Diver Scallops</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$48</span>
+                        </div>
+                        <p class="item-description-new">Jumbo scallops, cauliflower purée, crispy pancetta, brown butter, micro greens</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Whole Roasted Branzino</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$52</span>
+                        </div>
+                        <p class="item-description-new">Mediterranean sea bass, lemon, herbs, roasted vegetables, olive oil</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Maine Lobster Thermidor</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$68</span>
+                        </div>
+                        <p class="item-description-new">Whole lobster, cognac cream sauce, gruyère, tarragon, duchess potatoes</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Chilean Sea Bass</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$56</span>
+                        </div>
+                        <p class="item-description-new">Miso-glazed sea bass, bok choy, shiitake mushrooms, ginger soy reduction</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Grilled Swordfish</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$46</span>
+                        </div>
+                        <p class="item-description-new">Swordfish steak, mango salsa, cilantro lime rice, grilled asparagus</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Alaskan King Crab Legs</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$72</span>
+                        </div>
+                        <p class="item-description-new">Steamed king crab legs, drawn butter, lemon, roasted potatoes</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Grilled Salmon</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$42</span>
+                        </div>
+                        <p class="item-description-new">Atlantic salmon, lemon dill sauce, roasted vegetables, wild rice</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Blackened Mahi-Mahi</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$44</span>
+                        </div>
+                        <p class="item-description-new">Cajun-spiced mahi-mahi, mango chutney, coconut rice, grilled vegetables</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Seafood Paella</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$54</span>
+                        </div>
+                        <p class="item-description-new">Saffron rice, shrimp, mussels, clams, calamari, chorizo, peas</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Courses -->
+            <div class="menu-category-new" id="mains" data-aos="fade-up">
+                <h2 class="category-title-new">MAIN COURSES</h2>
+                <p class="category-subtitle-new">Signature dishes crafted to perfection</p>
+
+                <div class="menu-items-list">
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Prime Perfection</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$85</span>
+                        </div>
+                        <p class="item-description-new">Wagyu beef, seasonal vegetables, red wine reduction</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Wagyu Beef Wellington</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$78</span>
+                        </div>
+                        <p class="item-description-new">Prime wagyu beef, mushroom duxelles, puff pastry, red wine reduction</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Rack of Lamb</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$62</span>
+                        </div>
+                        <p class="item-description-new">Herb-crusted New Zealand lamb, mint jus, roasted vegetables</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Filet Mignon</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$68</span>
+                        </div>
+                        <p class="item-description-new">8oz center-cut filet, truffle mashed potatoes, asparagus, béarnaise sauce</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Roasted Duck Breast</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$52</span>
+                        </div>
+                        <p class="item-description-new">Pan-roasted duck breast, cherry gastrique, wild rice, sautéed greens</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Veal Osso Buco</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$58</span>
+                        </div>
+                        <p class="item-description-new">Braised veal shank, saffron risotto, gremolata, root vegetables</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Wild Mushroom Risotto</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$38</span>
+                        </div>
+                        <p class="item-description-new">Creamy arborio rice, wild mushrooms, truffle oil, parmesan, fresh herbs</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Ribeye Steak</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$72</span>
+                        </div>
+                        <p class="item-description-new">16oz prime ribeye, garlic butter, mashed potatoes, grilled asparagus</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Chicken Marsala</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$36</span>
+                        </div>
+                        <p class="item-description-new">Pan-seared chicken breast, marsala wine sauce, mushrooms, angel hair pasta</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Braised Short Ribs</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$64</span>
+                        </div>
+                        <p class="item-description-new">Slow-braised beef short ribs, red wine reduction, creamy polenta, roasted carrots</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Pork Tenderloin</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$48</span>
+                        </div>
+                        <p class="item-description-new">Herb-crusted pork tenderloin, apple chutney, sweet potato purée, green beans</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu-category-new" id="desserts" data-aos="fade-up">
+                <h2 class="category-title-new">DESSERTS</h2>
+                <p class="category-subtitle-new">Sweet endings to remember</p>
+
+                <div class="menu-items-list">
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Crème Brûlée</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$14</span>
+                        </div>
+                        <p class="item-description-new">Classic vanilla custard, caramelized sugar, fresh berries</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Chocolate Lava Cake</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$16</span>
+                        </div>
+                        <p class="item-description-new">Warm chocolate cake, molten center, vanilla ice cream, raspberry coulis</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Tiramisu</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$15</span>
+                        </div>
+                        <p class="item-description-new">Espresso-soaked ladyfingers, mascarpone cream, cocoa powder</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Lemon Soufflé</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$18</span>
+                        </div>
+                        <p class="item-description-new">Light lemon soufflé, raspberry sauce, powdered sugar, fresh mint</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">New York Cheesecake</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$14</span>
+                        </div>
+                        <p class="item-description-new">Classic cheesecake, graham cracker crust, berry compote</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Seasonal Fruit Tart</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$15</span>
+                        </div>
+                        <p class="item-description-new">Buttery tart shell, pastry cream, fresh seasonal fruits, apricot glaze</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Panna Cotta</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$13</span>
+                        </div>
+                        <p class="item-description-new">Vanilla panna cotta, berry compote, fresh mint, almond tuile</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Chocolate Mousse</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$14</span>
+                        </div>
+                        <p class="item-description-new">Dark chocolate mousse, whipped cream, chocolate shavings, fresh berries</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Bananas Foster</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$16</span>
+                        </div>
+                        <p class="item-description-new">Caramelized bananas, rum sauce, vanilla ice cream, toasted pecans</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beverages -->
+            <div class="menu-category-new" id="beverages" data-aos="fade-up">
+                <h2 class="category-title-new">BEVERAGES</h2>
+                <p class="category-subtitle-new">Curated selections to complement your meal</p>
+
+                <div class="menu-items-list">
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Espresso</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$5</span>
+                        </div>
+                        <p class="item-description-new">Double shot of premium Italian espresso</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Cappuccino</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$7</span>
+                        </div>
+                        <p class="item-description-new">Espresso, steamed milk, foam, cocoa powder</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">French Press Coffee</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$8</span>
+                        </div>
+                        <p class="item-description-new">Freshly ground premium coffee beans, served tableside</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Selection of Fine Teas</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$6</span>
+                        </div>
+                        <p class="item-description-new">Earl Grey, English Breakfast, Green Tea, Chamomile, Peppermint</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Fresh Squeezed Juices</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$9</span>
+                        </div>
+                        <p class="item-description-new">Orange, grapefruit, apple, or seasonal selection</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Sparkling Water</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$8</span>
+                        </div>
+                        <p class="item-description-new">San Pellegrino or Perrier, served chilled with lemon</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">House-Made Lemonade</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$7</span>
+                        </div>
+                        <p class="item-description-new">Fresh lemon juice, simple syrup, mint, served over ice</p>
+                    </div>
+
+                    <div class="menu-item-new">
+                        <div class="item-header-new">
+                            <h3 class="item-name-new">Iced Tea</h3>
+                            <span class="item-dots-new"></span>
+                            <span class="item-price-new">$6</span>
+                        </div>
+                        <p class="item-description-new">Freshly brewed black tea, sweetened or unsweetened, lemon wedge</p>
+                    </div>
+                </div>
+            </div>
+
+            </div><!-- End Menu Content Wrapper -->
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">Ethereal</h3>
+                    <p class="footer-text">
+                        Experience the pinnacle of fine dining where every detail is crafted to perfection.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Our Menu</a></li>
+                        <li><a href="contact.html#reservation">Reservations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Policies</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="cancellation-policy.html">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> <a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@ethereal-dining.com">info@ethereal-dining.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Gourmet Avenue, NY</li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ethereal Fine Dining. All rights reserved. Crafted with passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

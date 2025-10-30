@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Ethereal's stunning gallery of culinary artistry, elegant ambiance, and fine dining experience">
+    <meta name="keywords" content="restaurant gallery, fine dining photos, culinary art, restaurant ambiance">
+    <meta name="author" content="Ethereal Fine Dining">
+    <meta name="theme-color" content="#2c2416">
+    <meta name="robots" content="index, follow">
+    <title>Gallery | Ethereal Fine Dining - Culinary Artistry</title>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ethereal-restaurant.com/gallery.html">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gallery | Ethereal Fine Dining">
+    <meta property="og:description" content="Explore our stunning gallery of culinary artistry and elegant ambiance">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=80">
+    <meta property="og:url" content="https://ethereal-restaurant.com/gallery.html">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gallery | Ethereal Fine Dining">
+    <meta name="twitter:description" content="Explore our stunning gallery of culinary artistry and elegant ambiance">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=80">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%23d4af37'>✦</text></svg>">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <span class="logo-text">Ethereal</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item nav-cta">
+                    <a href="contact.html#reservation" class="btn-reserve">Reserve Table</a>
+                </li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-bg" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&q=80')"></div>
+        <div class="page-header-overlay"></div>
+        <div class="page-header-content">
+            <h1 class="page-title" data-aos="fade-up">Gallery</h1>
+            <p class="page-subtitle" data-aos="fade-up" data-aos-delay="100">A Visual Journey Through Ethereal</p>
+            <div class="breadcrumb" data-aos="fade-up" data-aos-delay="200">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Gallery</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter-section">
+        <div class="container">
+            <div class="gallery-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="dishes">Dishes</button>
+                <button class="filter-btn" data-filter="interior">Interior</button>
+                <button class="filter-btn" data-filter="drinks">Drinks</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid-section">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Dishes -->
+                <div class="gallery-item" data-category="dishes" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80" alt="Gourmet Salad" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Heirloom Tomato Salad</h3>
+                            <p>Fresh & Vibrant</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)" aria-label="View Heirloom Tomato Salad in full size">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dishes" data-aos="zoom-in" data-aos-delay="150">
+                    <img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?w=800&q=80" alt="Gourmet Pasta" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Truffle Pasta</h3>
+                            <p>Signature Dish</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)" aria-label="View Truffle Pasta in full size">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dishes" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80" alt="Gourmet Dish" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Pan-Seared Scallops</h3>
+                            <p>Chef's Special</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)" aria-label="View Pan-Seared Scallops in full size">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dishes" data-aos="zoom-in" data-aos-delay="250">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80" alt="Gourmet Pizza" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Artisan Flatbread</h3>
+                            <p>Wood-Fired Perfection</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dishes" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80" alt="Gourmet Salad Bowl">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Buddha Bowl</h3>
+                            <p>Healthy & Delicious</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dishes" data-aos="zoom-in" data-aos-delay="350">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80" alt="Gourmet Burger">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Wagyu Burger</h3>
+                            <p>Premium Selection</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Interior -->
+                <div class="gallery-item" data-category="interior" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80" alt="Restaurant Interior">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Main Dining Room</h3>
+                            <p>Elegant Ambiance</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interior" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80" alt="Restaurant Bar">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Wine Bar</h3>
+                            <p>Curated Selection</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interior" data-aos="zoom-in" data-aos-delay="250">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80" alt="Private Dining">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Private Dining Room</h3>
+                            <p>Intimate Gatherings</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Drinks -->
+                <div class="gallery-item" data-category="drinks" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&q=80" alt="Cocktails">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Signature Cocktails</h3>
+                            <p>Artisan Mixology</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="drinks" data-aos="zoom-in" data-aos-delay="150">
+                    <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800&q=80" alt="Wine Selection">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Wine Collection</h3>
+                            <p>Premium Vintages</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Events -->
+                <div class="gallery-item" data-category="events" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800&q=80" alt="Wedding Event">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Wedding Reception</h3>
+                            <p>Unforgettable Moments</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events" data-aos="zoom-in" data-aos-delay="150">
+                    <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80" alt="Corporate Event">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Corporate Dinner</h3>
+                            <p>Professional Excellence</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- More Dishes -->
+                <div class="gallery-item" data-category="dishes" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=800&q=80" alt="Dessert">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Chocolate Soufflé</h3>
+                            <p>Sweet Perfection</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dishes" data-aos="zoom-in" data-aos-delay="450">
+                    <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80" alt="Soup">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Lobster Bisque</h3>
+                            <p>Rich & Creamy</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dishes" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80" alt="Breakfast">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Brunch Selection</h3>
+                            <p>Weekend Delight</p>
+                        </div>
+                        <button class="gallery-zoom" onclick="openLightbox(this)">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <button class="lightbox-close" onclick="closeLightbox()">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-prev" onclick="navigateLightbox(-1)">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="lightbox-next" onclick="navigateLightbox(1)">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImage">
+            <div class="lightbox-caption">
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxDescription"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">Ethereal</h3>
+                    <p class="footer-text">
+                        Experience the pinnacle of fine dining where every detail is crafted to perfection.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Our Menu</a></li>
+                        <li><a href="contact.html#reservation">Reservations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Policies</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="cancellation-policy.html">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> <a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@ethereal-dining.com">info@ethereal-dining.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Gourmet Avenue, NY</li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ethereal Fine Dining. All rights reserved. Crafted with passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière - Fine Dining Excellence</title>
+    <meta name="description" content="Lumière - Where culinary artistry meets exceptional service. Experience Michelin-starred quality dining with innovative cuisine and impeccable presentation.">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Demo Badge -->
+    <div class="demo-badge" aria-label="Demo Template">Demo Template</div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <i class="fas fa-crown"></i>
+                    <span>Lumière</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#chef" class="nav-link">Chef</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#private" class="nav-link">Private Dining</a>
+                </li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#reservation" class="btn btn-primary">Reserve Table</a>
+            </div>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-up">
+                <i class="fas fa-star"></i>
+                <span>Michelin Guide Recommended</span>
+            </div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+                <span class="restaurant-name">Lumière</span>
+                <span class="hero-subtitle">Culinary Artistry Redefined</span>
+            </h1>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+                Where innovation meets tradition. Our award-winning chef creates extraordinary dining experiences
+                using the finest seasonal ingredients and cutting-edge culinary techniques.
+            </p>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="600">
+                <div class="stat-item">
+                    <div class="stat-number">★★★</div>
+                    <div class="stat-label">Michelin Guide</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Awards</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2018</div>
+                    <div class="stat-label">Established</div>
+                </div>
+            </div>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="800">
+                <a href="#menu" class="btn btn-primary">
+                    <i class="fas fa-utensils"></i>
+                    Tasting Menu
+                </a>
+                <a href="#reservation" class="btn btn-secondary">
+                    <i class="fas fa-calendar-alt"></i>
+                    Reserve Experience
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Fresh Ingredients</h3>
+                    <p>We source the finest local and imported ingredients daily</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Family Recipes</h3>
+                    <p>Traditional recipes passed down through generations</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-wine-glass-alt"></i>
+                    </div>
+                    <h3>Fine Wine Selection</h3>
+                    <p>Carefully curated Italian wines to complement your meal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Menu</h2>
+                <p>Discover our delicious selection of authentic Italian dishes</p>
+            </div>
+            
+            <div class="menu-categories">
+                <button class="menu-tab active" data-category="appetizers">Appetizers</button>
+                <button class="menu-tab" data-category="pasta">Pasta</button>
+                <button class="menu-tab" data-category="pizza">Pizza</button>
+                <button class="menu-tab" data-category="mains">Main Courses</button>
+                <button class="menu-tab" data-category="desserts">Desserts</button>
+            </div>
+
+            <div class="menu-content">
+                <!-- Appetizers -->
+                <div class="menu-category active" id="appetizers">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-aos="fade-up">
+                            <div class="menu-item-header">
+                                <h4>Bruschetta Classica</h4>
+                                <span class="price">$12</span>
+                            </div>
+                            <p>Toasted bread topped with fresh tomatoes, basil, and garlic</p>
+                        </div>
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="menu-item-header">
+                                <h4>Antipasto Misto</h4>
+                                <span class="price">$18</span>
+                            </div>
+                            <p>Selection of cured meats, cheeses, olives, and roasted vegetables</p>
+                        </div>
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item-header">
+                                <h4>Calamari Fritti</h4>
+                                <span class="price">$16</span>
+                            </div>
+                            <p>Crispy fried squid rings served with marinara sauce</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pasta -->
+                <div class="menu-category" id="pasta">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-aos="fade-up">
+                            <div class="menu-item-header">
+                                <h4>Spaghetti Carbonara</h4>
+                                <span class="price">$22</span>
+                            </div>
+                            <p>Classic Roman pasta with eggs, pancetta, and Pecorino Romano</p>
+                        </div>
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="menu-item-header">
+                                <h4>Fettuccine Alfredo</h4>
+                                <span class="price">$20</span>
+                            </div>
+                            <p>Fresh fettuccine in creamy Parmesan sauce</p>
+                        </div>
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item-header">
+                                <h4>Penne Arrabbiata</h4>
+                                <span class="price">$19</span>
+                            </div>
+                            <p>Spicy tomato sauce with garlic, red peppers, and fresh herbs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pizza -->
+                <div class="menu-category" id="pizza">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-aos="fade-up">
+                            <div class="menu-item-header">
+                                <h4>Margherita</h4>
+                                <span class="price">$18</span>
+                            </div>
+                            <p>San Marzano tomatoes, fresh mozzarella, and basil</p>
+                        </div>
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="menu-item-header">
+                                <h4>Quattro Stagioni</h4>
+                                <span class="price">$24</span>
+                            </div>
+                            <p>Four seasons pizza with artichokes, mushrooms, ham, and olives</p>
+                        </div>
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item-header">
+                                <h4>Diavola</h4>
+                                <span class="price">$22</span>
+                            </div>
+                            <p>Spicy salami, mozzarella, and chili peppers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Courses -->
+                <div class="menu-category" id="mains">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-aos="fade-up">
+                            <div class="menu-item-header">
+                                <h4>Osso Buco</h4>
+                                <span class="price">$32</span>
+                            </div>
+                            <p>Braised veal shanks with saffron risotto</p>
+                        </div>
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="menu-item-header">
+                                <h4>Branzino al Sale</h4>
+                                <span class="price">$28</span>
+                            </div>
+                            <p>Mediterranean sea bass baked in sea salt crust</p>
+                        </div>
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item-header">
+                                <h4>Bistecca alla Fiorentina</h4>
+                                <span class="price">$45</span>
+                            </div>
+                            <p>Grilled T-bone steak with rosemary and olive oil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-category" id="desserts">
+                    <div class="menu-grid">
+                        <div class="menu-item" data-aos="fade-up">
+                            <div class="menu-item-header">
+                                <h4>Tiramisu</h4>
+                                <span class="price">$9</span>
+                            </div>
+                            <p>Classic Italian dessert with coffee-soaked ladyfingers</p>
+                        </div>
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="menu-item-header">
+                                <h4>Panna Cotta</h4>
+                                <span class="price">$8</span>
+                            </div>
+                            <p>Silky vanilla custard with berry compote</p>
+                        </div>
+                        <div class="menu-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="menu-item-header">
+                                <h4>Cannoli Siciliani</h4>
+                                <span class="price">$10</span>
+                            </div>
+                            <p>Crispy shells filled with sweet ricotta and chocolate chips</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <div class="section-header">
+                        <h2>Our Story</h2>
+                        <p>A passion for authentic Italian cuisine</p>
+                    </div>
+                    <p class="about-description">
+                        Founded in 1995 by the Rossi family, Bella Vista has been serving authentic Italian cuisine 
+                        to Vancouver for over 25 years. Our recipes have been passed down through generations, 
+                        bringing the true taste of Italy to your table.
+                    </p>
+                    <p>
+                        We believe in using only the finest ingredients, from San Marzano tomatoes to aged Parmigiano-Reggiano, 
+                        ensuring every dish captures the essence of traditional Italian cooking.
+                    </p>
+                    <div class="chef-signature">
+                        <div class="signature-placeholder">
+                            <i class="fas fa-signature"></i>
+                        </div>
+                        <p><em>- Chef Marco Rossi</em></p>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="about-img-placeholder">
+                        <i class="fas fa-chef-hat"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wine Cellar & Sommelier Section -->
+    <section id="wine" class="wine-cellar">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Wine Cellar & Sommelier Selection</h2>
+                <p>Over 500 carefully curated wines from renowned vineyards worldwide</p>
+            </div>
+
+            <div class="wine-content">
+                <div class="sommelier-profile" data-aos="fade-right">
+                    <div class="sommelier-image">
+                        <i class="fas fa-wine-glass-alt"></i>
+                    </div>
+                    <div class="sommelier-info">
+                        <h3>Master Sommelier Jean-Pierre Laurent</h3>
+                        <p class="sommelier-title">Wine Director & Master Sommelier</p>
+                        <p class="sommelier-bio">
+                            With over 20 years of experience and certifications from the Court of Master Sommeliers,
+                            Jean-Pierre curates our exceptional wine collection and creates perfect pairings for each dish.
+                        </p>
+                        <div class="sommelier-credentials">
+                            <div class="credential">
+                                <i class="fas fa-award"></i>
+                                <span>Master Sommelier Certified</span>
+                            </div>
+                            <div class="credential">
+                                <i class="fas fa-medal"></i>
+                                <span>Wine Spectator Award Winner</span>
+                            </div>
+                            <div class="credential">
+                                <i class="fas fa-star"></i>
+                                <span>James Beard Nominee</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wine-collections" data-aos="fade-left">
+                    <div class="collection-grid">
+                        <div class="collection-card">
+                            <div class="collection-icon">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <h4>Reserve Collection</h4>
+                            <p>Rare vintages and limited releases from prestigious estates</p>
+                            <div class="collection-stats">
+                                <span>150+ bottles</span>
+                                <span>$200-$2,500 range</span>
+                            </div>
+                        </div>
+
+                        <div class="collection-card">
+                            <div class="collection-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h4>International Selection</h4>
+                            <p>Exceptional wines from France, Italy, Spain, and New World regions</p>
+                            <div class="collection-stats">
+                                <span>200+ bottles</span>
+                                <span>$45-$300 range</span>
+                            </div>
+                        </div>
+
+                        <div class="collection-card">
+                            <div class="collection-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h4>Organic & Biodynamic</h4>
+                            <p>Sustainable wines from environmentally conscious producers</p>
+                            <div class="collection-stats">
+                                <span>80+ bottles</span>
+                                <span>$35-$180 range</span>
+                            </div>
+                        </div>
+
+                        <div class="collection-card">
+                            <div class="collection-icon">
+                                <i class="fas fa-glass-cheers"></i>
+                            </div>
+                            <h4>Champagne & Sparkling</h4>
+                            <p>Premium champagnes and sparkling wines for special occasions</p>
+                            <div class="collection-stats">
+                                <span>70+ bottles</span>
+                                <span>$65-$800 range</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wine-experiences" data-aos="fade-up">
+                <h3>Wine Experiences</h3>
+                <div class="experiences-grid">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h4>Wine Pairing Dinner</h4>
+                            <span class="experience-price">$185 per person</span>
+                        </div>
+                        <p>7-course tasting menu with expertly paired wines, guided by our sommelier</p>
+                        <div class="experience-features">
+                            <span class="feature">Monthly themed dinners</span>
+                            <span class="feature">Limited to 20 guests</span>
+                            <span class="feature">Meet the winemaker events</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <h4>Private Wine Tasting</h4>
+                            <span class="experience-price">$95 per person</span>
+                        </div>
+                        <p>Intimate tasting of 6 premium wines with cheese and charcuterie pairings</p>
+                        <div class="experience-features">
+                            <span class="feature">Private dining room</span>
+                            <span class="feature">Personalized selection</span>
+                            <span class="feature">Take-home tasting notes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef's Table & Private Dining -->
+    <section id="private" class="chefs-table">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Chef's Table & Private Dining</h2>
+                <p>Exclusive culinary experiences for discerning guests</p>
+            </div>
+
+            <div class="private-dining-options">
+                <div class="dining-option featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="option-badge">Signature Experience</div>
+                    <div class="option-image">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="option-content">
+                        <h3>Chef's Table Experience</h3>
+                        <p>Sit at our exclusive 8-seat chef's table and watch our culinary team create your meal with theatrical precision. Interact with Chef Marcus and learn the stories behind each dish.</p>
+                        <div class="option-details">
+                            <div class="detail">
+                                <i class="fas fa-users"></i>
+                                <span>2-8 guests</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-clock"></i>
+                                <span>3.5 hours</span>
+                            </div>
+                            <div class="detail">
+                                <i class="fas fa-dollar-sign"></i>
+                                <span>$295 per person</span>
+                            </div>
+                        </div>
+                        <div class="option-includes">
+                            <h4>Includes:</h4>
+                            <ul>
+                                <li>12-course tasting menu</li>
+                                <li>Wine pairing with each course</li>
+                                <li>Personal interaction with chef</li>
+                                <li>Signed menu and recipe cards</li>
+                                <li>Champagne welcome reception</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary">Reserve Chef's Table</button>
+                    </div>
+                </div>
+
+                <div class="private-rooms" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Private Dining Rooms</h3>
+                    <div class="rooms-grid">
+                        <div class="room-card">
+                            <div class="room-image">
+                                <i class="fas fa-door-open"></i>
+                            </div>
+                            <div class="room-info">
+                                <h4>The Bordeaux Room</h4>
+                                <p>Intimate setting for business dinners and special celebrations</p>
+                                <div class="room-specs">
+                                    <span><i class="fas fa-users"></i> 6-12 guests</span>
+                                    <span><i class="fas fa-tv"></i> AV equipment</span>
+                                    <span><i class="fas fa-wine-glass"></i> Wine cellar view</span>
+                                </div>
+                                <div class="room-pricing">
+                                    <span>Room fee: $200</span>
+                                    <span>Menu from $85/person</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="room-card">
+                            <div class="room-image">
+                                <i class="fas fa-door-open"></i>
+                            </div>
+                            <div class="room-info">
+                                <h4>The Champagne Salon</h4>
+                                <p>Elegant space perfect for corporate events and milestone celebrations</p>
+                                <div class="room-specs">
+                                    <span><i class="fas fa-users"></i> 12-24 guests</span>
+                                    <span><i class="fas fa-music"></i> Sound system</span>
+                                    <span><i class="fas fa-city"></i> City view</span>
+                                </div>
+                                <div class="room-pricing">
+                                    <span>Room fee: $400</span>
+                                    <span>Menu from $95/person</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="room-card">
+                            <div class="room-image">
+                                <i class="fas fa-door-open"></i>
+                            </div>
+                            <div class="room-info">
+                                <h4>The Grand Salon</h4>
+                                <p>Our largest private space for weddings and major corporate functions</p>
+                                <div class="room-specs">
+                                    <span><i class="fas fa-users"></i> 25-50 guests</span>
+                                    <span><i class="fas fa-microphone"></i> Full AV setup</span>
+                                    <span><i class="fas fa-glass-cheers"></i> Private bar</span>
+                                </div>
+                                <div class="room-pricing">
+                                    <span>Room fee: $800</span>
+                                    <span>Menu from $125/person</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visit Us</h2>
+                <p>Make a reservation or get in touch</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>123 Robson Street<br>Vancouver, BC V6B 2A7</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>(Demo)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Hours</h4>
+                            <p>Mon-Thu: 5:00 PM - 10:00 PM<br>
+                               Fri-Sat: 5:00 PM - 11:00 PM<br>
+                               Sun: 4:00 PM - 9:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>info@bellavista.ca</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reservation-form" data-aos="fade-left">
+                    <h3>Make a Reservation</h3>
+                    <form id="reservation-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Time</label>
+                                <select id="time" name="time" required>
+                                    <option value="" disabled selected hidden>Select time...</option>
+                                    <option value="17:00">5:00 PM</option>
+                                    <option value="17:30">5:30 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="18:30">6:30 PM</option>
+                                    <option value="19:00">7:00 PM</option>
+                                    <option value="19:30">7:30 PM</option>
+                                    <option value="20:00">8:00 PM</option>
+                                    <option value="20:30">8:30 PM</option>
+                                    <option value="21:00">9:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="guests">Number of Guests</label>
+                            <select id="guests" name="guests" required>
+                                <option value="" disabled selected hidden>Select number of guests...</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5">5 Guests</option>
+                                <option value="6">6 Guests</option>
+                                <option value="7">7 Guests</option>
+                                <option value="8">8+ Guests</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Special Requests</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Any special requests or dietary restrictions..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Make Reservation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-background">
+            <div class="footer-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-section footer-about">
+                    <div class="footer-brand">
+                        <h3 class="footer-title">Lumière</h3>
+                        <div class="footer-tagline">Fine French Cuisine</div>
+                    </div>
+                    <p class="footer-description">Experience the finest French cuisine in Vancouver. Our passionate chefs create culinary masterpieces using the freshest local ingredients and traditional French techniques.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook" class="social-link" data-platform="facebook">
+                            <div class="social-icon">
+                                <i class="fab fa-facebook"></i>
+                            </div>
+                            <span class="social-tooltip">Follow us on Facebook</span>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link" data-platform="instagram">
+                            <div class="social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <span class="social-tooltip">Follow us on Instagram</span>
+                        </a>
+                        <a href="#" aria-label="TripAdvisor" class="social-link" data-platform="tripadvisor">
+                            <div class="social-icon">
+                                <i class="fab fa-tripadvisor"></i>
+                            </div>
+                            <span class="social-tooltip">Review us on TripAdvisor</span>
+                        </a>
+                        <a href="#" aria-label="Yelp" class="social-link" data-platform="yelp">
+                            <div class="social-icon">
+                                <i class="fab fa-yelp"></i>
+                            </div>
+                            <span class="social-tooltip">Review us on Yelp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">
+                        <span class="heading-text">Experience</span>
+                        <div class="heading-line"></div>
+                    </h4>
+                    <ul class="footer-links">
+                        <li><a href="#menu" class="footer-link">
+                            <span class="link-icon"><i class="fas fa-utensils"></i></span>
+                            <span class="link-text">Our Menu</span>
+                        </a></li>
+                        <li><a href="#about" class="footer-link">
+                            <span class="link-icon"><i class="fas fa-chef-hat"></i></span>
+                            <span class="link-text">About Chef</span>
+                        </a></li>
+                        <li><a href="#gallery" class="footer-link">
+                            <span class="link-icon"><i class="fas fa-images"></i></span>
+                            <span class="link-text">Gallery</span>
+                        </a></li>
+                        <li><a href="#contact" class="footer-link">
+                            <span class="link-icon"><i class="fas fa-glass-cheers"></i></span>
+                            <span class="link-text">Private Events</span>
+                        </a></li>
+                        <li><a href="#contact" class="footer-link">
+                            <span class="link-icon"><i class="fas fa-wine-glass"></i></span>
+                            <span class="link-text">Wine Pairing</span>
+                        </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">
+                        <span class="heading-text">Information</span>
+                        <div class="heading-line"></div>
+                    </h4>
+                    <ul class="footer-links">
+                        <li><a href="#contact" class="footer-link">
+                            <span class="link-icon"><i class="fas fa-calendar-check"></i></span>
+                            <span class="link-text">Reservations</span>
+                        </a></li>
+                        <li><a href="#" class="footer-link">
+                            <span class="link-icon"><i class="fas fa-tshirt"></i></span>
+                            <span class="link-text">Dress Code</span>
+                        </a></li>
+                        <li><a href="#" class="footer-link">
+                            <span class="link-icon"><i class="fas fa-gift"></i></span>
+                            <span class="link-text">Gift Cards</span>
+                        </a></li>
+                        <li><a href="#" class="footer-link">
+                            <span class="link-icon"><i class="fas fa-percent"></i></span>
+                            <span class="link-text">Special Offers</span>
+                        </a></li>
+                        <li><a href="#" class="footer-link">
+                            <span class="link-icon"><i class="fas fa-envelope-open"></i></span>
+                            <span class="link-text">Newsletter</span>
+                        </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">
+                        <span class="heading-text">Visit Us</span>
+                        <div class="heading-line"></div>
+                    </h4>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">Address</span>
+                                <span class="contact-value">123 Robson Street, Vancouver</span>
+                            </div>
+                        </div>
+                        <a href="tel:6045553463" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">(604) 555-DINE</span>
+                            </div>
+                        </a>
+                        <a href="mailto:reservations@lumiere.ca" class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">reservations@lumiere.ca</span>
+                            </div>
+                        </a>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">Hours</span>
+                                <span class="contact-value">Tue-Sun: 5:00 PM - 10:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="footer-copyright">
+                        <p>&copy; 2025 Lumière Restaurant. All rights reserved.</p>
+                    </div>
+                    <div class="footer-legal">
+                        <span class="demo-notice">Demo website by <a href="../../index.html" class="demo-link">Locava</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

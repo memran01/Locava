@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APEX Elite Fitness - Transform Your Limits</title>
+    <meta name="description" content="Vancouver's premier fitness destination. Elite training, cutting-edge equipment, and a community dedicated to excellence.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>APEX</h1>
+                <span>Elite Fitness</span>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#programs" class="nav-link">Programs</a></li>
+                <li><a href="#trainers" class="nav-link">Trainers</a></li>
+                <li><a href="#membership" class="nav-link">Membership</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <a href="#membership" class="btn-primary">Join Now</a>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Animated Background Elements -->
+        <div class="hero-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+            <div class="hero-gradient-overlay"></div>
+            <video autoplay muted loop class="hero-video">
+                <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236da2f3c0fd273d2c6d9a064f3ae35579b2bbdf&profile_id=139&oauth2_token_id=57447761" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-layout">
+                    <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="hero-badge">
+                            <div class="badge-glow"></div>
+                            <i class="fas fa-fire"></i>
+                            <span>Vancouver's #1 Gym</span>
+                            <div class="badge-shine"></div>
+                        </div>
+                        <h1 class="hero-title">
+                            <span class="title-line">TRANSFORM YOUR</span>
+                            <span class="gradient-text">LIMITS</span>
+                            <div class="title-underline"></div>
+                        </h1>
+                        <p class="hero-subtitle">
+                            Join Vancouver's premier fitness community where champions are made.
+                            Experience elite training, cutting-edge equipment, and unlock your true potential.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#membership" class="btn-hero-primary">
+                                <div class="btn-bg"></div>
+                                <span>Start Your Journey</span>
+                                <i class="fas fa-arrow-right"></i>
+                                <div class="btn-ripple"></div>
+                            </a>
+                            <a href="#about" class="btn-hero-secondary">
+                                <div class="btn-bg"></div>
+                                <i class="fas fa-play"></i>
+                                <span>Watch Tour</span>
+                            </a>
+                        </div>
+
+                        <!-- Achievement Badges -->
+                        <div class="hero-achievements" data-aos="fade-up" data-aos-delay="600">
+                            <div class="achievement-badge">
+                                <i class="fas fa-trophy"></i>
+                                <span>Best Gym 2024</span>
+                            </div>
+                            <div class="achievement-badge">
+                                <i class="fas fa-star"></i>
+                                <span>5-Star Rated</span>
+                            </div>
+                            <div class="achievement-badge">
+                                <i class="fas fa-certificate"></i>
+                                <span>Certified Trainers</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
+                        <div class="stats-container">
+                            <div class="hero-stats">
+                                <div class="stat-item">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <div class="stat-content">
+                                        <div class="stat-number" data-count="5000">0</div>
+                                        <div class="stat-label">Active Members</div>
+                                    </div>
+                                    <div class="stat-glow"></div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-dumbbell"></i>
+                                    </div>
+                                    <div class="stat-content">
+                                        <div class="stat-number" data-count="15">0</div>
+                                        <div class="stat-label">Expert Trainers</div>
+                                    </div>
+                                    <div class="stat-glow"></div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="stat-content">
+                                        <div class="stat-number" data-count="24">0</div>
+                                        <div class="stat-label">Hours Access</div>
+                                    </div>
+                                    <div class="stat-glow"></div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-medal"></i>
+                                    </div>
+                                    <div class="stat-content">
+                                        <div class="stat-number" data-count="10">0</div>
+                                        <div class="stat-label">Years Experience</div>
+                                    </div>
+                                    <div class="stat-glow"></div>
+                                </div>
+                            </div>
+
+                            <!-- Floating Elements -->
+                            <div class="floating-elements">
+                                <div class="floating-icon" data-aos="zoom-in" data-aos-delay="800">
+                                    <i class="fas fa-heartbeat"></i>
+                                </div>
+                                <div class="floating-icon" data-aos="zoom-in" data-aos-delay="1000">
+                                    <i class="fas fa-fire"></i>
+                                </div>
+                                <div class="floating-icon" data-aos="zoom-in" data-aos-delay="1200">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <div class="scroll-text">Scroll to explore</div>
+        </div>
+
+        <!-- Hero Bottom Wave -->
+        <div class="hero-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>About APEX</span>
+                </div>
+                <h2>Where Champions Are Made</h2>
+                <p>Experience the difference at Vancouver's most elite fitness destination</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-grid">
+                    <div class="about-text" data-aos="fade-right">
+                        <h3>Elite Training Experience</h3>
+                        <p>
+                            At APEX Elite Fitness, we don't just provide a gym – we create champions. 
+                            Our state-of-the-art facility combines cutting-edge equipment with expert 
+                            guidance to help you achieve results you never thought possible.
+                        </p>
+                        <p>
+                            From professional athletes to fitness beginners, our community thrives on 
+                            pushing boundaries and supporting each other's journey to greatness.
+                        </p>
+                        
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="fas fa-medal"></i>
+                                <div>
+                                    <h4>Award-Winning Facility</h4>
+                                    <p>Recognized as Vancouver's best gym for 3 consecutive years</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-users"></i>
+                                <div>
+                                    <h4>Expert Community</h4>
+                                    <p>Train alongside certified professionals and motivated athletes</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>24/7 Access</h4>
+                                    <p>Premium members enjoy round-the-clock facility access</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-visual" data-aos="fade-left">
+                        <div class="about-image">
+                            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="APEX Elite Fitness Facility">
+                            <div class="image-overlay">
+                                <div class="play-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-achievements">
+                            <div class="achievement-item">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                                <div class="achievement-text">
+                                    <h4>Best Gym 2024</h4>
+                                    <p>Vancouver Fitness Awards</p>
+                                </div>
+                            </div>
+                            <div class="achievement-item">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="achievement-text">
+                                    <h4>5-Star Rating</h4>
+                                    <p>Google Reviews</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-fire"></i>
+                    <span>Training Programs</span>
+                </div>
+                <h2>Elite Training Programs</h2>
+                <p>Choose from our comprehensive range of professional training programs</p>
+            </div>
+            
+            <div class="programs-grid">
+                <div class="program-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Strength Training">
+                        <div class="program-overlay">
+                            <div class="program-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Strength Training</h3>
+                        <p>Build muscle, increase power, and transform your physique with our comprehensive strength programs.</p>
+                        <ul class="program-features">
+                            <li><i class="fas fa-check"></i> Olympic weightlifting</li>
+                            <li><i class="fas fa-check"></i> Powerlifting techniques</li>
+                            <li><i class="fas fa-check"></i> Progressive overload</li>
+                        </ul>
+                        <a href="#" class="program-btn">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="program-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="program-image">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Personal Training">
+                        <div class="program-overlay">
+                            <div class="program-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Personal Training</h3>
+                        <p>One-on-one coaching with certified trainers to accelerate your fitness journey and achieve your goals.</p>
+                        <ul class="program-features">
+                            <li><i class="fas fa-check"></i> Customized workout plans</li>
+                            <li><i class="fas fa-check"></i> Nutrition guidance</li>
+                            <li><i class="fas fa-check"></i> Progress tracking</li>
+                        </ul>
+                        <a href="#" class="program-btn">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="program-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="program-image">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Group Classes">
+                        <div class="program-overlay">
+                            <div class="program-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="program-content">
+                        <h3>Group Classes</h3>
+                        <p>High-energy group workouts that combine motivation, community, and expert instruction.</p>
+                        <ul class="program-features">
+                            <li><i class="fas fa-check"></i> HIIT workouts</li>
+                            <li><i class="fas fa-check"></i> Yoga & Pilates</li>
+                            <li><i class="fas fa-check"></i> Boxing classes</li>
+                        </ul>
+                        <a href="#" class="program-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-users"></i>
+                    <span>Expert Team</span>
+                </div>
+                <h2>Meet Our Elite Trainers</h2>
+                <p>Train with certified professionals who are passionate about your success</p>
+            </div>
+
+            <div class="trainers-grid">
+                <div class="trainer-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="trainer-image">
+
+                        <div class="trainer-overlay">
+                            <div class="trainer-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Abigail</h3>
+                        <p class="trainer-title">Head Strength Coach</p>
+                        <p class="trainer-bio">10+ years experience in powerlifting and Olympic weightlifting. Former national champion.</p>
+                        <div class="trainer-specialties">
+                            <span>Strength Training</span>
+                            <span>Powerlifting</span>
+                            <span>Olympic Lifting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trainer-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="trainer-image">
+                        <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Sarah Chen">
+                        <div class="trainer-overlay">
+                            <div class="trainer-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Sarah Chen</h3>
+                        <p class="trainer-title">HIIT & Conditioning Specialist</p>
+                        <p class="trainer-bio">Certified in functional movement and high-intensity training. Specializes in fat loss and conditioning.</p>
+                        <div class="trainer-specialties">
+                            <span>HIIT Training</span>
+                            <span>Fat Loss</span>
+                            <span>Conditioning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trainer-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="trainer-image">
+                        <img src="https://images.unsplash.com/photo-1567013127542-490d757e51cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="David Rodriguez">
+                        <div class="trainer-overlay">
+                            <div class="trainer-social">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>David Rodriguez</h3>
+                        <p class="trainer-title">Yoga & Mobility Expert</p>
+                        <p class="trainer-bio">200-hour certified yoga instructor with expertise in mobility, flexibility, and injury prevention.</p>
+                        <div class="trainer-specialties">
+                            <span>Yoga</span>
+                            <span>Mobility</span>
+                            <span>Recovery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Success Stories</span>
+                </div>
+                <h2>What Our Members Say</h2>
+                <p>Real transformations from real people who chose to push their limits at APEX Elite Fitness.</p>
+            </div>
+
+            <div class="testimonials-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"APEX Elite Fitness completely transformed my life. The trainers are incredible, the equipment is top-notch, and the community is so supportive. I've never felt stronger or more confident!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&h=80&fit=crop&crop=face" alt="Sarah Johnson">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>Lost 30 lbs • 8 months</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-glow"></div>
+                </div>
+
+                <div class="testimonial-card featured">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The personal training program here is exceptional. My trainer helped me achieve goals I never thought possible. The 24/7 access means I can work out on my schedule. Absolutely worth every penny!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face" alt="Mike Chen">
+                            </div>
+                            <div class="author-info">
+                                <h4>Mike Chen</h4>
+                                <span>Gained 15 lbs muscle • 6 months</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-glow"></div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The group classes are amazing and the energy is infectious. I've made so many friends here and look forward to every workout. This place has become my second home!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-image">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" alt="Emma Rodriguez">
+                            </div>
+                            <div class="author-info">
+                                <h4>Emma Rodriguez</h4>
+                                <span>Improved fitness • 1 year</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-glow"></div>
+                </div>
+            </div>
+
+            <!-- Trust Indicators -->
+            <div class="trust-indicators" data-aos="fade-up" data-aos-delay="400">
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="trust-content">
+                        <h4>Award Winning</h4>
+                        <p>Best Gym Vancouver 2024</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="trust-content">
+                        <h4>5000+ Members</h4>
+                        <p>Growing community</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="trust-content">
+                        <h4>5-Star Rated</h4>
+                        <p>Consistently excellent</p>
+                    </div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="trust-content">
+                        <h4>Certified Trainers</h4>
+                        <p>Expert guidance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="membership">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-crown"></i>
+                    <span>Membership Plans</span>
+                </div>
+                <h2>Choose Your Elite Plan</h2>
+                <p>Flexible membership options designed to fit your lifestyle and goals</p>
+            </div>
+
+            <div class="membership-grid">
+                <div class="membership-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="membership-header">
+                        <h3>Essential</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">89</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>Perfect for getting started</p>
+                    </div>
+                    <div class="membership-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Gym access (6am-10pm)</li>
+                            <li><i class="fas fa-check"></i> All cardio equipment</li>
+                            <li><i class="fas fa-check"></i> Free weights area</li>
+                            <li><i class="fas fa-check"></i> Locker room access</li>
+                            <li><i class="fas fa-check"></i> 2 guest passes/month</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="membership-btn">Choose Plan</a>
+                </div>
+
+                <div class="membership-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="membership-header">
+                        <h3>Elite</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">149</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>Our most comprehensive plan</p>
+                    </div>
+                    <div class="membership-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 24/7 gym access</li>
+                            <li><i class="fas fa-check"></i> All equipment & classes</li>
+                            <li><i class="fas fa-check"></i> Personal training session</li>
+                            <li><i class="fas fa-check"></i> Nutrition consultation</li>
+                            <li><i class="fas fa-check"></i> Unlimited guest passes</li>
+                            <li><i class="fas fa-check"></i> Towel service</li>
+                            <li><i class="fas fa-check"></i> Priority booking</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="membership-btn">Choose Plan</a>
+                </div>
+
+                <div class="membership-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="membership-header">
+                        <h3>Premium+</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">249</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>Ultimate elite experience</p>
+                    </div>
+                    <div class="membership-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Everything in Elite</li>
+                            <li><i class="fas fa-check"></i> 4 personal training sessions</li>
+                            <li><i class="fas fa-check"></i> Monthly body composition</li>
+                            <li><i class="fas fa-check"></i> Supplement consultation</li>
+                            <li><i class="fas fa-check"></i> VIP locker</li>
+                            <li><i class="fas fa-check"></i> Massage therapy access</li>
+                            <li><i class="fas fa-check"></i> Meal prep guidance</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="membership-btn">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Get Started</span>
+                </div>
+                <h2>Ready to Transform?</h2>
+                <p>Visit our facility or get in touch to begin your fitness journey</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-grid">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Visit Us</h4>
+                                <p>1234 Fitness Street<br>Vancouver, BC V6B 1A1</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Call Us</h4>
+                                <p>(604) 555-APEX<br>(604) 555-2739</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Hours</h4>
+                                <p>Mon-Sun: 5:00 AM - 11:00 PM<br>24/7 for Premium+ members</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p>info@apexelite.ca<br>support@apexelite.ca</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form" data-aos="fade-left">
+                        <form class="form">
+                            <div class="form-header">
+                                <h3>Start Your Journey</h3>
+                                <p>Fill out the form and we'll get back to you within 24 hours</p>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" id="firstName" required>
+                                    <label for="firstName">First Name</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="lastName" required>
+                                    <label for="lastName">Last Name</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="email" required>
+                                <label for="email">Email Address</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="tel" id="phone" required>
+                                <label for="phone">Phone Number</label>
+                            </div>
+
+                            <div class="form-group">
+                                <select id="interest" required>
+                                    <option value="">Select your interest...</option>
+                                    <option value="membership">Membership Information</option>
+                                    <option value="personal-training">Personal Training</option>
+                                    <option value="group-classes">Group Classes</option>
+                                    <option value="nutrition">Nutrition Coaching</option>
+                                    <option value="tour">Facility Tour</option>
+                                </select>
+                                <label for="interest">I'm Interested In</label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="message" rows="4" required></textarea>
+                                <label for="message">Tell us about your fitness goals</label>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                <span>Send Message</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Footer Wave -->
+        <div class="footer-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <!-- Animated Background -->
+        <div class="footer-background">
+            <div class="footer-particles">
+                <div class="footer-particle"></div>
+                <div class="footer-particle"></div>
+                <div class="footer-particle"></div>
+                <div class="footer-particle"></div>
+            </div>
+            <div class="footer-glow"></div>
+        </div>
+
+        <div class="container">
+            <div class="footer-content">
+                <!-- Newsletter Section -->
+                <div class="footer-newsletter" data-aos="fade-up">
+                    <div class="newsletter-content">
+                        <div class="newsletter-text">
+                            <h3>Stay Connected</h3>
+                            <p>Get the latest fitness tips, exclusive offers, and gym updates delivered to your inbox.</p>
+                        </div>
+                        <div class="newsletter-form">
+                            <div class="form-group">
+                                <input type="email" placeholder="Enter your email address" required>
+                                <button type="submit" class="newsletter-btn">
+                                    <span>Subscribe</span>
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                            <div class="newsletter-benefits">
+                                <span><i class="fas fa-check"></i> Weekly fitness tips</span>
+                                <span><i class="fas fa-check"></i> Exclusive member offers</span>
+                                <span><i class="fas fa-check"></i> Event notifications</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <div class="brand-logo">
+                            <h3>APEX</h3>
+                            <span>Elite Fitness</span>
+                            <div class="logo-glow"></div>
+                        </div>
+                        <p>Transform your limits at Vancouver's premier fitness destination. Join our community of champions and discover what you're truly capable of achieving.</p>
+
+                        <!-- Stats -->
+                        <div class="footer-stats">
+                            <div class="footer-stat">
+                                <div class="stat-number">5000+</div>
+                                <div class="stat-label">Happy Members</div>
+                            </div>
+                            <div class="footer-stat">
+                                <div class="stat-number">15+</div>
+                                <div class="stat-label">Expert Trainers</div>
+                            </div>
+                            <div class="footer-stat">
+                                <div class="stat-number">24/7</div>
+                                <div class="stat-label">Access</div>
+                            </div>
+                        </div>
+
+                        <!-- Social Links -->
+                        <div class="social-section">
+                            <h5>Follow Our Journey</h5>
+                            <div class="social-links">
+                                <a href="#" class="social-link instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                    <div class="social-glow"></div>
+                                </a>
+                                <a href="#" class="social-link facebook">
+                                    <i class="fab fa-facebook"></i>
+                                    <span>Facebook</span>
+                                    <div class="social-glow"></div>
+                                </a>
+                                <a href="#" class="social-link youtube">
+                                    <i class="fab fa-youtube"></i>
+                                    <span>YouTube</span>
+                                    <div class="social-glow"></div>
+                                </a>
+                                <a href="#" class="social-link tiktok">
+                                    <i class="fab fa-tiktok"></i>
+                                    <span>TikTok</span>
+                                    <div class="social-glow"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#programs">Programs</a></li>
+                            <li><a href="#trainers">Trainers</a></li>
+                            <li><a href="#membership">Membership</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Facility Tour</a></li>
+                            <li><a href="#">Success Stories</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Personal Training</a></li>
+                            <li><a href="#">Group Classes</a></li>
+                            <li><a href="#">Nutrition Coaching</a></li>
+                            <li><a href="#">Strength Training</a></li>
+                            <li><a href="#">Recovery Services</a></li>
+                            <li><a href="#">Meal Planning</a></li>
+                            <li><a href="#">Body Composition</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Get In Touch</h4>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Visit Us</span>
+                                    <span class="contact-value">1234 Fitness Street<br>Vancouver, BC V6B 1A1</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Call Us</span>
+                                    <span class="contact-value">(604) 555-APEX<br>(604) 555-2739</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Email Us</span>
+                                    <span class="contact-value">info@apexelite.ca<br>support@apexelite.ca</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Hours</span>
+                                    <span class="contact-value">Mon-Sun: 5:00 AM - 11:00 PM<br>24/7 for Premium+ members</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Bottom -->
+                <div class="footer-bottom">
+                    <div class="footer-bottom-content">
+                        <div class="footer-legal">
+                            <p>&copy; 2024 APEX Elite Fitness. All rights reserved.</p>
+                            <div class="footer-links">
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">Terms of Service</a>
+                                <a href="#">Cookie Policy</a>
+                                <a href="#">Accessibility</a>
+                            </div>
+                        </div>
+                        <div class="footer-badges">
+                            <div class="badge-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Secure & Safe</span>
+                            </div>
+                            <div class="badge-item">
+                                <i class="fas fa-certificate"></i>
+                                <span>Certified Facility</span>
+                            </div>
+                            <div class="badge-item">
+                                <i class="fas fa-award"></i>
+                                <span>Award Winning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
